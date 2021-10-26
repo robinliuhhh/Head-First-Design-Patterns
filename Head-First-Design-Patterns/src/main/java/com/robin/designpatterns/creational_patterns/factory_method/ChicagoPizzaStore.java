@@ -1,7 +1,10 @@
 package com.robin.designpatterns.creational_patterns.factory_method;
 
+// 使用工厂方法模式
+// 创建类 使用继承extends
 public class ChicagoPizzaStore extends PizzaStore {
 
+    // 覆盖工厂方法
     Pizza createPizza(String item) {
         if (item.equals("cheese")) {
             return new ChicagoStyleCheesePizza();
