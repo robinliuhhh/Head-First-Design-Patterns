@@ -1,4 +1,4 @@
-package com.robin.designpatterns.creational_patterns.singleton.threadsafe;
+package com.robin.designpatterns.creational_patterns.singleton.threadsafe.synchronize;
 
 public class Singleton {
     private static Singleton uniqueInstance;
